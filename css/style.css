@@ -22,7 +22,7 @@ header h1, h2, blockquote {
 header h1 {
     font-size: 5.96rem;
     line-height: 1;
-    color: #AE821C;
+    color: #a57e12;
     margin: 5rem 0 1rem 0;
 }
 
@@ -52,4 +52,85 @@ blockquote {
     font-size: 1.562rem;
     hanging-punctuation: first;
     text-indent: -0.6rem;
+}
+
+/*-- Styling links --*/
+a {
+    color: #635724;
+    text-decoration: none;
+    border-bottom: 2.5px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(0, 219, 190);
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Navigation --*/
+.responsivenav {
+    background: #635724;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color: #f7f7f7;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+nav {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    border-bottom: none;
+    color:#f7f7f7;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #f5b11e;
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    background: #333333;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem 0;
+}
+
+footer a {
+    color:#e6b635;
+}
+
+footer a:hover {
+    color:#8dccff;
+}
+
+.light {
+    background: #fff6cd;
+    padding: 3rem;
+
 }
